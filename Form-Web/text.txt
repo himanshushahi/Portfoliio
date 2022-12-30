@@ -1,0 +1,13 @@
+आवेदक / आवेदिका का नाम *
+पिता का नाम *
+माता का नाम *
+पति का नाम
+आवेदक का ईमेल / Email of Applicant
+<div>
+                    <label for="">निवास का प्रकार / Type of Residence *</label>
+                </div><br>
+                <span class="mt-10">
+                    <input type="radio" name="type" id="" class="mx-10"> स्थायी
+                    <input type="radio" name="type" id="" class="mx-10"> अस्थायी
+                </span>
+ </div>

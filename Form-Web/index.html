@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>issuance of Residence Certificate from Revenue Officer Level</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="utlities.css">
+   </head>
+   <body>
+      <nav>
+         <img src="bihar-sarkar-1.jpg" alt="#">
+         <p> फॉर्म / Form-XII<br>
+            निवास प्रमाण-पत्र हेतु आवेदन-पत्र (राजस्व अधिकारी स्तर से)<br>
+            Application Form for issuance of Residence Certificate from Revenue Officer Level
+         </p>
+         <img src="BPSM_Logo1.jpg" alt="#">
+      </nav>
+      <main>
+           
+            <div class="main">
+              
+            <form action="action.php" class="m-10">
+               <div class="detail">आवेदक का विवरण / Details of Applicant</div>
+               <div class="left">
+                  <div>
+                     <label for="Gender">लिंग / Gender *</label>
+                  </div>
+                  <br>
+                  <span class="mt-10">
+                  <input type="radio" name="Gender"  class="mx-10" id="Gender"> पुरुष / Male
+                  <input type="radio" name="Gender"  class="mx-10"> स्त्री / Female
+                  <input type="radio" name="Gender"  class="mx-10"> तृतीय लिंग / Third Gender
+                  </span>
+                  <div class="mt-30">
+                     <label for="name">Name of Applicant *</label>
+                  </div>
+                  <br>
+                  <span class="mt-10">
+                  <input type="text" id="name" required class="input-field">
+                  </span>
+                  <div class="mt-30">
+                     <label for="fname">Name of father *</label>
+                  </div>
+                  <br>
+                  <span class="mt-10">
+                  <input type="text" id="fname" required class="input-field">
+                  </span>
+                  <div class="mt-30">
+                     <label for="mname">Name of Mother *</label>
+                  </div>
+                  <br>
+                  <span class="mt-10">
+                  <input type="text" id="mname" required class="input-field">
+                  </span>
+                  <div class="mt-30">
+                     <label for="hname">Name of Husband</label>
+                  </div>
+                  <br>
+                  <span class="mt-10">
+                  <input type="text" id="hname" required class="input-field">
+                  </span>
+                  <div class="mt-30">
+                     <label for="name">आवेदक का मोबाइल संख्या / Mobile No. of Applicant</label>
+                  </div>
+                  <br>
+                  <span class="mt-10">
+                  <input type="text" id="mnum" required class="input-field">
+                  </span>
+                  <div class="mt-30">
+                     <label>पता / Address:-</label>
+                  </div>
+                  <div>
+                     <div class="mt-30">
+                        <label for="state">राज्य / State *</label>
+                     </div>
+                     <br>
+                     <select id="state" class="input-field">
+                        <option value="#">Please Select</option>
+                        <option value="#">BIHAR</option>
+                     </select>
+                  </div>
+                  <div>
+                     <div class="mt-30">
+                        <label for="Sub-Division">अनुमंडल / Sub-Division *</label>
+                     </div>
+                     <br>
+                     <select name="state" class="input-field" id="Sub-Division">
+                        <option value="#" >Please Select</option>
+                        <option value="#">....</option>
+                        <option value="#">....</option>
+                        <option value="#">....</option>
+                        <option value="#">....</option>
+                        <option value="#">....</option>
+                        <option value="#">....</option>
+                     </select>
+                  </div>
+                  <div class="mt-30">
+                     <label>स्थानीय निकाय का प्रकार / Type of Local Body</label>
+                  </div>
+                     <br>
+                     <div class=" mt-30">
+                        <input type="radio" name="Grampanchayt" class="mx-10">ग्राम पंचायत / Village Panchayat
+                        <input type="radio" name="nagarnigam" class="mx-10">नगर निगम / Municipal Corporation
+                     </div>
+                     <br>
+                     <div class=" mt-10">
+                        <input type="radio" name="munsipalty" class="mx-10">नगर परिषद / Municipality
+                        <input type="radio" name="Townpanchayt" class="mx-10">नगर पंचायत / Town Panchayat
+                     </div>
+                  <div class="mt-30">
+                     <label for="Village">ग्राम (Village) / मोहल्ला (Town) *</label>
+                  </div>
+                  <br>
+                  <span class="mt-10">
+                  <input type="text" id="Village" required class="input-field">
+                  </span>
+                  <div>
+                     <div class="mt-30">
+                        <label for="police">थाना / Police Station *</label>
+                     </div>
+                     <br>
+                     <select name="police" id="police" class="input-field">
+                        <option value="#" class="">Please Select</option>
+                        <option value="#">....</option>
+                        <option value="#">....</option>
+                        <option value="#">....</option>
+                        <option value="#">....</option>
+                        <option value="#">....</option>
+                        <option value="#">....</option>
+                     </select>
+                  </div>
+                  <div class="mt-30">
+                     <label for="img">आवेदक का स्वअभिप्रमाणित फोटो / Self attested photograph <br>of applicant
+                     *</label><br>
+                     <input type="file" id="img" name="img" accept="image/*" class="mt-30">
+                  </div>
+                  <br>
+                  <div class="mt-30">
+                     <label for="Aadhaar">आधार संख्या / Aadhaar Number</label>
+                  </div>
+                  <br>
+                  <span class="mt-10">
+                  <input type="text" id="Aadhaar" required class="input-field">
+                  </span>
+               </div>
+               <div class="right">
+                  <div>
+                     <label for="Salutation">अभिवादन / Salutation *</label>
+                  </div>
+                  <br>
+                  <select name="select" class="input-field" id="Salutation">
+                     <option value="#">Please Select</option>
+                     <option value="#">..</option>
+                     <option value="#">..</option>
+                     <option value="#">..</option>
+                     <option value="#">..</option>
+                  </select>
+                  <br>
+                  <div class="mt-15">
+                     <label for="hinname">आवेदक / आवेदिका का नाम *</label>
+                  </div>
+                  <br>
+                  <span class="mt-10">
+                  <input type="text" id="hinname" required class="input-field">
+                  </span>
+                  <div class="mt-30">
+                     <label for="hfather">पिता का नाम *</label>
+                  </div>
+                  <br>
+                  <span class="mt-10">
+                  <input type="text" id="hfather" required class="input-field">
+                  </span>
+                  <div class="mt-30">
+                     <label for="hmother">माता का नाम *</label>
+                  </div>
+                  <br>
+                  <span class="mt-10">
+                  <input type="text" id="hmother" required class="input-field">
+                  </span>
+                  <div class="mt-30">
+                     <label for="hhusband">पति का नाम</label>
+                  </div>
+                  <br>
+                  <span class="mt-10">
+                  <input type="text" id="hhusband" required class="input-field">
+                  </span>
+                  <div class="mt-30">
+                     <label for="email">आवेदक का ईमेल / Email of Applicant</label>
+                  </div>
+                  <br>
+                  <span class="mt-10">
+                  <input type="text" id="email" required class="input-field">
+                  </span>
+                  <div class="mt-75">
+                     <label for="District">जिला / District *</label>
+                  </div>
+                  <br>
+                  <select name="select" class="input-field" id="District">
+                     <option value="#">Please Select</option>
+                     <option value="#">..</option>
+                     <option value="#">..</option>
+                     <option value="#">..</option>
+                     <option value="#">..</option>
+                  </select>
+                  <br>
+                  <div class="mt-30">
+                     <label for="Block">प्रखंड / Block *</label>
+                  </div>
+                  <br>
+                  <select name="select" class="input-field" id="Block">
+                     <option value="#">Please Select</option>
+                     <option value="#">..</option>
+                     <option value="#">..</option>
+                     <option value="#">..</option>
+                     <option value="#">..</option>
+                  </select>
+                  <br>
+                  <div class="mt-30">
+                     <label for="ward">वार्ड संख्या / Ward No. *</label>
+                  </div>
+                  <br>
+                  <span class="mt-10">
+                  <input type="text" id="ward" required class="input-field">
+                  </span>
+                  <div class="mt-90">
+                     <div>
+                        <label for="Post">डाक घर / Post Office *</label>
+                     </div>
+                     <br>
+                     <span class="mt-10">
+                     <input type="text" id="Post" required class="input-field">
+                     </span>
+                     <div class="mt-30">
+                        <label for="Pin">पिन कोड / Pin Code *</label>
+                     </div>
+                     <br>
+                     <span class="mt-10">
+                     <input type="text" id="Pin" required class="input-field">
+                     </span>
+                  </div>
+               </div>
+            </form>
+         </div>
+         <br>
+         <div class="secondmain">
+            <div class="detail">अन्य / Others</div>
+            <div class="l-left">
+               <div>
+                  <label>निवास का प्रकार / Type of Residence *</label>
+               </div>
+               <br>
+               <span class="mt-10">
+               <input type="radio" name="type"  class="mx-10"> स्थायी
+               <input type="radio" name="type"  class="mx-10"> अस्थायी
+               </span>   
+            </div>
+            <div class="l-right">
+               <div>
+                  <label for="Purpose">आवेदन का उद्देश्य / Purpose of Application</label>
+               </div>
+               <br>
+               <span class="mt-10 m-b">
+               <input type="text" id="Purpose" required class="input-field">
+               </span>
+            </div>
+         </div>
+
+         <div class="secondmain mt-15 submit">
+            <button type="submit" class="button">Submit</button>
+         </div>
+      </main>
+   </body>
+</html>
