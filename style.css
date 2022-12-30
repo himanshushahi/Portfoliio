@@ -201,7 +201,8 @@ form > input{
     text-align: center; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     background-color: #0d6efd;
-    margin: 0;
+    margin: 4px 4px;
+    box-shadow: #0d6efd 0px 5px 15px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -213,6 +214,7 @@ form > input{
 
     .conleft{
         width: 100%;
+        margin-bottom: 10px;
     }
 
     .conright{
