@@ -34,6 +34,10 @@
     background-color: #0d6efd;
 }
 
+.react{
+    width: 40px;
+}
+
 
 #grid {
     display: grid;
