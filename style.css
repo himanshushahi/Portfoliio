@@ -1,6 +1,24 @@
-.div {
+* {
+    box-sizing: border-box;
+}
+
+.midpara {
+    width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+.highpara {
+    font-size: large;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.lowpara {
+    font-size: large;
+    font-weight: bold;
+    text-align: justify;
 }
 
 .img {
@@ -9,35 +27,30 @@
 }
 
 .h2 {
-    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    background-color: #0d6efd;
 }
 
-.middle {
-    display: flex;
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 5px;
+    margin-bottom: 10px;
 }
 
-.right {
-    float: right;
-    background-color: rgba(209, 200, 200, 0.447);
-    height: 700px;
+
+#grid>div {
+    font-size: 30px;
+    padding: .5em;
+    color: #ffffff;
+    background:#0d6efd ;
+    text-align: center;
 }
 
-.skills>img {
-    width: 40px;
-}
-
-.skills {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* .skill img:hover{
-    width: 50px;
-} */
-body{
-    background-color: rgb(170, 213, 199);
-}
 .contact {
     width: 200px;
     height: 70px;
@@ -47,7 +60,23 @@ body{
     cursor: pointer;
     font-size: 17px;
     font-weight: bold;
+    margin-bottom: 15px;
 }
+
+.contact:hover {
+    background-color: white;
+    color: #0d6efd;
+    border: 1px solid #0d6efd;
+}
+
+
+/* .skill img:hover{
+    width: 50px;
+} */
+body {
+    background-color: rgb(170, 213, 199);
+}
+
 
 .index-pic {
     width: 40px;
@@ -58,17 +87,16 @@ body{
     margin-top: 30px;
 }
 
-.contact:hover {
-    background-color: white;
-    color: #0d6efd;
-    border: 1px solid #0d6efd;
-}
+
 
 .nav-link:hover {
     background-color: white;
     border-radius: 10px;
     color: #0d6efd !important;
 }
+
+
+/* -------------------- */
 
 .conmiddle {
     display: flex;
@@ -98,21 +126,16 @@ body{
     height: 300px;
 }
 
-@media only screen and (max-width: 600px) {
-    .conimg {
-      width:60%;
-    }
-  }
 
- .footer{
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-} 
+}
 
- .git{
+.git {
     margin-right: 25px;
-} 
+}
 
 .conright {
     width: 50vw;
@@ -121,15 +144,15 @@ body{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
 }
 
-.conright h2{
-    font-size:40px;
-    width:100%;
+.conright h2 {
+    font-size: 40px;
+    width: 100%;
     background-color: #0d6efd;
     text-align: center;
     margin-top: 0px;
 }
 
-form{
+form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,11 +160,11 @@ form{
     margin-top: 12px;
 }
 
-form > input{
-    margin-bottom:20px ;
+form>input {
+    margin-bottom: 20px;
 }
 
-.input{
+.input {
     width: 60%;
     height: 35px;
     padding: 7px;
@@ -151,7 +174,7 @@ form > input{
     font-size: large;
 }
 
-.textarea{
+.textarea {
     resize: none;
     padding: 7px;
     outline: none;
@@ -175,53 +198,55 @@ form > input{
 
 @media only screen and (max-width: 600px) {
     .submit {
-      width:125px;
+        width: 125px;
+        margin-bottom: 5px;
     }
-  }
+}
+
 
 .submit:hover {
     background-color: white;
     color: #0d6efd;
     border: 1px solid #0d6efd;
-    
+
 }
 
-.main{
+.main {
     display: flex;
     justify-content: space-between;
 }
 
 @media only screen and (max-width: 600px) {
-   .main{
-    flex-direction: column;
-   }
+    .main {
+        flex-direction: column;
+    }
 }
 
-.main-h2{
-    text-align: center; 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+.main-h2 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0d6efd;
     margin: 4px 4px;
     box-shadow: #0d6efd 0px 5px 15px;
 }
 
 @media only screen and (max-width: 600px) {
-    .conmiddle{
+    .conmiddle {
         flex-direction: column;
         width: 100%;
         height: 95%;
     }
 
-    .conleft{
+    .conleft {
         width: 100%;
         margin-bottom: 10px;
     }
 
-    .conright{
+    .conright {
         width: 100%;
     }
 
-  }
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -231,7 +256,7 @@ form > input{
         width: 95%;
     }
 
-    .index-pic{
+    .index-pic {
         display: none;
     }
 
