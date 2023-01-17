@@ -1,3 +1,4 @@
+<?php include 'form.php'; ?>
 <!doctype html>
 <html lang="en">
 
@@ -64,10 +65,18 @@
         </div>
         <div class="conright">
             <h2>Contact Us</h2>
-            <form action="https://formspree.io/f/myyagraa" method="POST">
+            <form action="" method="POST">
                 <input type="text" name="Name" class="input" placeholder="Your Name">
                 <input type="email" name="Email" class="input" placeholder="Your Email">
                 <textarea name="massage" cols="30" rows="5" class="textarea" placeholder="Message"></textarea>
+                <div>
+                    <p class="success">
+                        <?php echo $success; ?>
+                    </p>
+                    <p class="fail">
+                        <?php echo $fail; ?>
+                    </p>
+                </div>
                 <button type="submit" class="submit">Send</button>
             </form>
         </div>
